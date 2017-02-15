@@ -23,12 +23,12 @@ while True:
 
   # get RPM values for CPU fans
   fans = subprocess.check_output(fans_cmd, shell=True)
-  f = str(fans.decode('utf-8'))
+  fan_speeds = str(fans.decode('utf-8'))
 
   rpms = []
 
   # push valid fan speeds onto rpms
-  for rpm in f.split('\n'):
+  for rpm in fan_speeds.split('\n'):
     if rpm.strip() == '':
      continue
     try:
