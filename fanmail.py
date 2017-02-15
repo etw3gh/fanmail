@@ -28,11 +28,11 @@ while True:
   rpms = []
 
   # push valid fan speeds onto rpms
-  for temp in f.split('\n'):
-    if temp.strip() == '':
+  for rpm in f.split('\n'):
+    if rpm.strip() == '':
      continue
     try:
-      rpms.append(int(temp))
+      rpms.append(int(rpm))
     except:
       pass
 
