@@ -66,10 +66,7 @@ http://linux.dell.com/repo/community/ubuntu/
 
 ## omreport
 
-### sample comamnd output
-
 $ omreport chassis fans
-
 
 <!-- language: lang-none -->
 
