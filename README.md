@@ -12,34 +12,27 @@ Emails will be sent if one fan is running above MAX_RPM
 
 ## ~/.bashrc for standalone use
 
-export SES_SENDER='sending_email@anothermailservice.com'
+<!-- language: lang-none -->
 
-export SES_DEST='dest_email@somemailservice.com'
-
-export MAX_RPM='2500'
-
-export AWS_ACCESS_KEY_ID=''
-
-export AWS_SECRET_ACCESS_KEY=''
-
-export AWS_DEFAULT_REGION=''
-
+    export SES_SENDER='sending_email@anothermailservice.com'
+    export SES_DEST='dest_email@somemailservice.com'
+    export MAX_RPM='2500'
+    export AWS_ACCESS_KEY_ID=''
+    export AWS_SECRET_ACCESS_KEY=''
+    export AWS_DEFAULT_REGION=''
 
 ## systemD for use as a service
 
 edit /etc/sysconfig/fanmail and add the ENV vars
 
-SES_SENDER='sending_email@anothermailservice.com'
+<!-- language: lang-none -->
 
-SES_DEST='dest_email@somemailservice.com'
-
-MAX_RPM='2500'
-
-AWS_ACCESS_KEY_ID=''
-
-AWS_SECRET_ACCESS_KEY=''
-
-AWS_DEFAULT_REGION=''
+    SES_SENDER='sending_email@anothermailservice.com'
+    SES_DEST='dest_email@somemailservice.com'
+    MAX_RPM='2500'
+    AWS_ACCESS_KEY_ID=''
+    AWS_SECRET_ACCESS_KEY=''
+    AWS_DEFAULT_REGION=''
 
 ## service
 
