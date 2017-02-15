@@ -37,8 +37,8 @@ while True:
       pass
 
   if len(rpms) >= 2:
-    # get the low and high RPM values
-    lo, hi = sorted(rpms)[0:2]
+    # get the low and high RPM values from the top 2 speeds (in case of more than 2 CPUs)
+    hi, lo = list(reversed(sorted(rpms)))[0:2]
 
     # if the threshold is exceeded then construct the email message and send it
     if hi >= max_rpm:
