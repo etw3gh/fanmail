@@ -1,10 +1,14 @@
 #Fanmail
 
-An email to let you know the fans are running above a certain rpm
+An email to let you know when server fans are running above a certain RPM and thus making a ton of noise
 
 Ensure a valid SES sending email address is specified
 
 Emails will be sent if one fan is running above MAX_RPM
+
+## Sample Email
+
+![screenshot](fanmail.png)
 
 ## ~/.bashrc for standalone use
 
