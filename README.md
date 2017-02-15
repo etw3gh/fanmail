@@ -77,27 +77,30 @@ http://linux.dell.com/repo/community/ubuntu/
 
 $ omreport chassis fans
 
-Fan Probes Information
 
-----------------------------
-Main System Chassis Fans: Ok
-----------------------------
+<!-- language: lang-none -->
 
-Index                     : 0
-Status                    : Ok
-Probe Name                : System Board FAN 3 RPM
-Reading                   : 2640 RPM
-Minimum Warning Threshold : [N/A]
-Maximum Warning Threshold : [N/A]
-Minimum Failure Threshold : 840 RPM
-Maximum Failure Threshold : [N/A]
+    Fan Probes Information
 
-Index                     : 1
-Status                    : Ok
-Probe Name                : System Board FAN 4 RPM
-Reading                   : 2640 RPM
-Minimum Warning Threshold : [N/A]
-Maximum Warning Threshold : [N/A]
-Minimum Failure Threshold : 840 RPM
-Maximum Failure Threshold : [N/A]
+    ----------------------------
+    Main System Chassis Fans: Ok
+    ----------------------------
+
+    Index                     : 0
+    Status                    : Ok
+    Probe Name                : System Board FAN 3 RPM
+    Reading                   : 2640 RPM
+    Minimum Warning Threshold : [N/A]
+    Maximum Warning Threshold : [N/A]
+    Minimum Failure Threshold : 840 RPM
+    Maximum Failure Threshold : [N/A]
+
+    Index                     : 1
+    Status                    : Ok
+    Probe Name                : System Board FAN 4 RPM
+    Reading                   : 2640 RPM
+    Minimum Warning Threshold : [N/A]
+    Maximum Warning Threshold : [N/A]
+    Minimum Failure Threshold : 840 RPM
+    Maximum Failure Threshold : [N/A]
 
