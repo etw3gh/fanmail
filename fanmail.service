@@ -1,0 +1,11 @@
+[Unit]
+Description=fan rpm warning by email
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/sysconfig/fanmail
+ExecStart=/home/d/bin/fanwarn/fanmail.py
+WorkingDirectory=/home/d/bin/fanwarn
+
+[Install]
+WantedBy=multi-user.target

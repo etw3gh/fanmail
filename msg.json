@@ -1,0 +1,17 @@
+{
+   "Subject": {
+       "Data": "MAX FAN RPM %%F2%%",
+       "Charset": "UTF-8"
+   },
+   "Body": {
+       "Text": {
+           "Data": "FAN 1 RPM: %%F1%%, FAN 2 RPM: %%F2%%",
+           "Charset": "UTF-8"
+       },
+       "Html": {
+           "Data": "<h1>Fan Warning</h1><ul><li>FAN 1 RPM: %%F1%%</li><li>FAN 2 RPM: %%F2%%</li></ul><h2><h3>Ventilate the server area</h3>",
+           "Charset": "UTF-8"
+       }
+   }
+}
+

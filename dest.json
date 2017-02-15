@@ -1,0 +1,6 @@
+{
+  "ToAddresses":  ["%%SES_DEST%%"],
+  "CcAddresses":  [],
+  "BccAddresses": []
+}
+
