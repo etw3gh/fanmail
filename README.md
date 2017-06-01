@@ -50,7 +50,7 @@ sudo systemctl preset fanmail.service
 
 sudo service fanmail start|stop|restart|status
 
-##AWS & python Requirements
+## AWS & python Requirements
 
 apt install python3-pip
 
@@ -58,9 +58,9 @@ pip3 install awscli
 
 you'll need to have a valid email account setup on AWS SES 
 
-##Dell Requirements
+## Dell Requirements
 
-###OpenManage
+### OpenManage
 
 http://linux.dell.com/repo/community/ubuntu/
 
